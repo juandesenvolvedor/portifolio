@@ -1,0 +1,64 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@300;400;700&display=swap');
+
+:root{
+    --fonte: 'inria Serif', serif;
+
+    --cor01: #0B0A07;
+    --cor02: #1F1F1F;
+    --cor03: #061923;
+    --cor04: #B9F3EF;
+    --cor05: #D6D6D6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: #061923;
+}
+
+header{
+    width: 100%;
+    height: 269px;
+    flex-shrink: 0;
+    background-color: var(--cor04);
+}
+
+main{
+    margin: auto;
+    max-width: 1054px;
+    min-width: 300px;
+    height: 1477px;
+    background-color: #0B0A07;
+    flex-shrink: 0;
+    border-radius: 0px 0px 20px 20px;
+    margin-bottom: 65px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0px;
+    padding: 0;
+    height: 39px;
+    width: 100%;
+    background-color: var(--cor01);
+    color: var(--cor05);
+    text-align: center;
+}
+
+footer > a{
+    margin-left: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #D6D6D6;
+}
+
+footer > a:hover{
+    text-decoration: underline;
+}
