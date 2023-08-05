@@ -14,7 +14,7 @@
 *{
     margin: 0;
     padding: 0;
-
+    font-family: var(--fonte);
 }
 
 body{
@@ -30,6 +30,7 @@ header{
 
 main{
     margin: auto;
+    padding-top: 71px;
     max-width: 1054px;
     min-width: 300px;
     height: 1477px;
@@ -37,6 +38,127 @@ main{
     flex-shrink: 0;
     border-radius: 0px 0px 20px 20px;
     margin-bottom: 65px;
+}
+
+#name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    background-color: #1F1F1F;
+    width: 315px;
+    height: 63px;
+    border-radius: 50px;
+    margin-bottom: 61px;
+}
+
+#name > p{
+    color: #D6D6D6;
+    font-family: var(--fonte);
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.titles{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin: auto;
+    width: 923px;
+    height: 59px;
+    margin-bottom: 37px;
+}
+
+.titles > .lines{
+    width: 300px;
+    height: 1px;
+    background-color: #D6D6D6;
+}
+
+.titles > p{
+    color: #D6D6D6;
+    text-align: center;
+    font-family: var(--fonte);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#aboutMe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    background-color: #D6D6D6;
+    width: 815px;
+    height: 143px;
+    border-radius: 50px;
+    background-color: #1F1F1F;
+    margin-bottom: 37px;   
+}
+
+#aboutMe > p{
+    color: #D6D6D6;
+    text-align: center;
+    font-family: Inria Serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#projects{
+    position: relative;
+    margin: auto;
+    background-color: #1F1F1F;
+    width: 740.378px;
+    height: 473px;
+    border-radius: 50px;
+    margin-bottom: 37px;
+}
+
+#contact{
+    background-color: #1F1F1F;
+    width: 740px;
+    height: 215px;
+    border-radius: 50px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 65px;
+}
+
+.contacts{
+    position: relative;
+    width: 491px;
+    height: 43.886px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+
+#first{
+    margin-bottom: 30px;
+}
+
+.image{
+    margin-right: 26.33px;
+}
+
+.contacts > span{
+    color: #D6D6D6;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#link{
+    color: #D6D6D6;
+    font-size: 25px;
+    font-weight: 700;
 }
 
 footer{
@@ -52,13 +174,12 @@ footer{
     text-align: center;
 }
 
-footer > a{
-    margin-left: 5px;
+a{
     font-weight: bold;
     text-decoration: none;
     color: #D6D6D6;
 }
 
-footer > a:hover{
+a:hover{
     text-decoration: underline;
 }
