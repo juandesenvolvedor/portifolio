@@ -15,27 +15,35 @@
     margin: 0;
     padding: 0;
     font-family: var(--fonte);
+    color: var(--cor05);
 }
 
 body{
-    background-color: #061923;
+    background-color: var(--cor03);
 }
 
 header{
+    position: relative;
     width: 100%;
     height: 269px;
-    flex-shrink: 0;
     background-color: var(--cor04);
+}
+
+#profile{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
 }
 
 main{
     margin: auto;
-    padding-top: 71px;
+    padding-top: 76px;
     max-width: 1054px;
     min-width: 300px;
     height: 1477px;
-    background-color: #0B0A07;
-    flex-shrink: 0;
+    background-color: var(--cor01);
     border-radius: 0px 0px 20px 20px;
     margin-bottom: 65px;
 }
@@ -46,7 +54,7 @@ main{
     justify-content: center;
     position: relative;
     margin: auto;
-    background-color: #1F1F1F;
+    background-color: var(--cor02);
     width: 315px;
     height: 63px;
     border-radius: 50px;
@@ -54,7 +62,7 @@ main{
 }
 
 #name > p{
-    color: #D6D6D6;
+    color: var(--cor05);
     font-family: var(--fonte);
     font-size: 36px;
     font-weight: 700;
@@ -75,11 +83,11 @@ main{
 .titles > .lines{
     width: 300px;
     height: 1px;
-    background-color: #D6D6D6;
+    background-color: var(--cor05);
 }
 
 .titles > p{
-    color: #D6D6D6;
+    color: var(--cor05);
     text-align: center;
     font-family: var(--fonte);
     font-size: 32px;
@@ -92,18 +100,18 @@ main{
     justify-content: center;
     position: relative;
     margin: auto;
-    background-color: #D6D6D6;
+    background-color: var(--cor05);
     width: 815px;
     height: 143px;
     border-radius: 50px;
-    background-color: #1F1F1F;
+    background-color: var(--cor02);
     margin-bottom: 37px;   
 }
 
 #aboutMe > p{
-    color: #D6D6D6;
+    color: var(--cor05);
     text-align: center;
-    font-family: Inria Serif;
+    font-family: var(--fonte);
     font-size: 24px;
     font-weight: 400;
 }
@@ -111,7 +119,7 @@ main{
 #projects{
     position: relative;
     margin: auto;
-    background-color: #1F1F1F;
+    background-color: var(--cor02);
     width: 740.378px;
     height: 473px;
     border-radius: 50px;
@@ -119,7 +127,7 @@ main{
 }
 
 #contact{
-    background-color: #1F1F1F;
+    background-color: var(--cor02);
     width: 740px;
     height: 215px;
     border-radius: 50px;
@@ -149,19 +157,25 @@ main{
     margin-right: 26.33px;
 }
 
+#hub{
+    position: relative;
+    top: 15px;
+}
+
 .contacts > span{
-    color: #D6D6D6;
+    color: var(--cor05);
     font-size: 25px;
     font-weight: 700;
 }
 
 #link{
-    color: #D6D6D6;
+    color: var(--cor05);
     font-size: 25px;
     font-weight: 700;
 }
 
 footer{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -177,7 +191,7 @@ footer{
 a{
     font-weight: bold;
     text-decoration: none;
-    color: #D6D6D6;
+    color: var(--cor05);
 }
 
 a:hover{
