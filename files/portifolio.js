@@ -8,6 +8,10 @@ topButton.addEventListener("click", function(){
     window.scrollTo(0,0);
 })
 
+aboutMeButton.addEventListener("click", function(){
+    window.scrollTo(0,280)
+})
+
 projectsButton.addEventListener("click" , function(){
     window.scrollTo(0, 760);
 })
